@@ -1,0 +1,22 @@
+{
+  "name": "YMSearch",
+  "version": "0.1.0",
+  "summary": "A short description of YMSearch.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nightxu/YMSearch",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nightxu": "1204944581@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/nightxu/YMSearch.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YMSearch/Classes/**/*"
+}

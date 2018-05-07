@@ -1,0 +1,6 @@
+framework module YMSearch {
+  umbrella header "YMSearch-umbrella.h"
+
+  export *
+  module * { export * }
+}

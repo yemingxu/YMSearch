@@ -1,0 +1,6 @@
+framework module Pods_YMSearch_Tests {
+  umbrella header "Pods-YMSearch_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

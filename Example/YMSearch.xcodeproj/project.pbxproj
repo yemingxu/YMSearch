@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12C4CD3220A024E1008F0E7E /* YMConsoleLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C4CD3120A024E1008F0E7E /* YMConsoleLog.m */; };
 		2D1F05C2E290FAA227DBD2EA /* Pods_YMSearch_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F65CA9D168BC3EA43AC9DE /* Pods_YMSearch_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,7 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		021F4AC571BB7E98487F7AF3 /* YMSearch.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YMSearch.podspec; path = ../YMSearch.podspec; sourceTree = "<group>"; };
+		021F4AC571BB7E98487F7AF3 /* YMSearch.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YMSearch.podspec; path = ../YMSearch.podspec; sourceTree = "<group>"; };
+		12C4CD3120A024E1008F0E7E /* YMConsoleLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMConsoleLog.m; sourceTree = "<group>"; };
 		24F6340BE9CDEFD0060A00E2 /* Pods_YMSearch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMSearch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F26B6076B4669BD0B3454EB /* Pods-YMSearch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMSearch_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMSearch_Example/Pods-YMSearch_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YMSearch_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMSearch_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,12 +62,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		853A0776EA54C6C99295642D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		853A0776EA54C6C99295642D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8674CD0B1E08A5FE28302D98 /* Pods-YMSearch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMSearch_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMSearch_Example/Pods-YMSearch_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96F65CA9D168BC3EA43AC9DE /* Pods_YMSearch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMSearch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D985E539795E8D362CBB20C4 /* Pods-YMSearch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMSearch_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMSearch_Tests/Pods-YMSearch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DBE0E1155BFB78FBB4682DC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DBE0E1155BFB78FBB4682DC0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DD28558BD6B86DE9AD734F75 /* Pods-YMSearch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMSearch_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMSearch_Tests/Pods-YMSearch_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,6 +136,7 @@
 			children = (
 				6003F59C195388D20070C39A /* YMAppDelegate.h */,
 				6003F59D195388D20070C39A /* YMAppDelegate.m */,
+				12C4CD3120A024E1008F0E7E /* YMConsoleLog.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* YMViewController.h */,
 				6003F5A6195388D20070C39A /* YMViewController.m */,
@@ -406,6 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12C4CD3220A024E1008F0E7E /* YMConsoleLog.m in Sources */,
 				6003F59E195388D20070C39A /* YMAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
