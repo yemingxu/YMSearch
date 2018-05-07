@@ -1,5 +1,7 @@
 # YMSearch
 
+利用百度Api，实现关键字提示。
+
 [![CI Status](https://img.shields.io/travis/nightxu/YMSearch.svg?style=flat)](https://travis-ci.org/nightxu/YMSearch)
 [![Version](https://img.shields.io/cocoapods/v/YMSearch.svg?style=flat)](https://cocoapods.org/pods/YMSearch)
 [![License](https://img.shields.io/cocoapods/l/YMSearch.svg?style=flat)](https://cocoapods.org/pods/YMSearch)
