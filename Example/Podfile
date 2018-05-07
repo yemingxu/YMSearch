@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YMSearch_Example' do
+  pod 'YMSearch', :path => '../'
+
+  target 'YMSearch_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
